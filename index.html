@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+  </head>
+  <body>
+  <center>
+    <h2>Register Here</h2>
+    <form class="align" action="index.php" method="post">
+      <p>ID</p><input type="text" name="id" value="" placeholder="Roll Number" required/><br>
+      <!-- <input type="text" name="dummy" id="dummy" value=""/> -->
+      <p>Name</p><input type="text" name="name" value="" placeholder="Student Name" required/><br>
+      <p>Email</p><input type="email" name="email" value="" placeholder="Something@example.com" required><br>
+      <input type="submit" name="submit" value="Submit" onclick="reload()">
+    </form>
+
+
+
+  <div class="footer">
+  <form class="" action="admin.html" method="post">
+          <input type="submit" name="submit" value="Admin Login">
+  </form>
+  </div>
+  </center>
+
+
+
+  <script type="text/javascript">
+    function reload()
+    {
+      location.reload();
+      console.log("sdfsf");
+    }
+  </script>
+
+
+  </body>
+</html>

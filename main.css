@@ -1,0 +1,50 @@
+body
+{
+margin-top: 8%;
+  /* background-image: url('background.png'); */
+background-color:#000000;
+
+color:#ffffff;
+}
+p
+{
+
+  margin: 8px;
+  font-family: montserrat;
+}
+h2
+{
+font-family: 'ZCOOL XiaoWei', serif;
+}
+input[type=text],[type=email],[type=password]
+{
+font-family: montserrat;
+width: 20%;
+height: 10px;
+padding: 10px 14px;
+margin: 3px 0;
+border-radius: 30px;
+border-bottom-style: none;
+
+}
+input[type=submit]
+{
+  font-family: montserrat;
+background-color:#DBD032;
+color: #000000;
+padding: 10px 14px;
+margin: 10px 0;
+border: none;
+border-radius: 30px;
+
+}
+input[type=submit]:hover
+{
+background-color:#F2D12C;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
