@@ -5,7 +5,7 @@ if(isset($_POST['submit']))
   $name=$_POST['name'];
   $email=$_POST['email'];
 
-  $link=mysqli_connect("localhost","admin","admin","reg_details");
+  $link=mysqli_connect("localhost","#","#","#");
   if($link === false)
   {
     die("Error".mysqli_connect_error());
