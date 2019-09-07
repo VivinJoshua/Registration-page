@@ -1,5 +1,5 @@
 <?php
-$link=mysqli_connect("localhost","admin","admin","reg_details");
+$link=mysqli_connect("localhost","#","#","#");
 if(!$link)
     die("error connection".mysqli_connect_error());
 $name=$_POST['name'];
